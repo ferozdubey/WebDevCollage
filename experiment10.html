@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Navbar</title>
+    <link rel="stylesheet" href="experiment10.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">ShopEase</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Account</a></li>
+        </ul>
+
+        <div class="hamburger" id="hamburger">
+            <img src="https://img.icons8.com/ios-filled/50/000000/menu--v1.png" alt="menu">
+        </div>
+    </nav>
+
+    <header class="banner">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200" alt="Shop Banner">
+        <h1>Welcome to ShopEase</h1>
+        <p>Your favorite place for online shopping</p>
+    </header>
+
+</body>
+
+<script>
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("navLinks");
+
+    hamburger.onclick = () => {
+        navLinks.classList.toggle("active");
+    };
+</script>
+
+</html>
