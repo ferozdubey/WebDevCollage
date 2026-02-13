@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>New punjabi Restaurant</title>
+
+<style>
+body {
+    font-family: Arial;
+    background-color: #fff7e6;
+}
+
+/* Header */
+.header {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Menu section */
+.menu {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Images section */
+.food-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.food-images img {
+    width: 180px;
+    height: 120px;
+    border: 1px solid black;
+}
+
+/* Reservation link */
+.reserve {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.reserve a {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+}
+</style>
+
+</head>
+<body>
+
+<!-- Restaurant Name -->
+<div class="header">
+    <h1>New Punjabi Restaurant</h1>
+    <p>Authentic Indian Cuisine</p>
+</div>
+
+<!-- Menu with Nested Lists -->
+<div class="menu">
+    <h2>Menu</h2>
+
+    <ul>
+        <li>Starters
+            <ul>
+                <li>Paneer Tikka</li>
+                <li>Veg Spring Roll</li>
+            </ul>
+        </li>
+
+        <li>Main Course
+            <ul>
+                <li>Butter Chicken</li>
+                <li>Veg Biryani</li>
+            </ul>
+        </li>
+
+        <li>Desserts
+            <ul>
+                <li>Gulab Jamun</li>
+                <li>Ice Cream</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<!-- Food Images -->
+<div class="food-images">
+    <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950" alt="Paneer Tikka">
+    <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7" alt="Butter Chicken">
+    <img src="https://images.unsplash.com/photo-1599785209707-28cba4f3a6a1" alt="Veg Biryani">
+
+</div>
+
+<!-- Reservation Link -->
+<div class="reserve">
+    <a href="reservation.html">Book a Table</a>
+</div>
+
+</body>
+</html>
